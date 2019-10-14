@@ -1,0 +1,79 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="commonStyle">
+
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+    </style>
+
+    <!-- Title -->
+    <style name="Title_style" parent="commonStyle" >
+
+        <item name="android:textColor">@color/androidmanTitle</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">@dimen/title</item>
+    </style>
+
+    <!-- head Box -->
+    <style name="headbox_style" >
+
+        <item name="android:layout_width">@dimen/headbox_width</item>
+        <item name="android:layout_height">@dimen/headbox_height</item>
+        <item name="android:background">@color/mainColor</item>
+    </style>
+
+    <!--Eye Box-->
+
+    <style name="eyeBox_style" >
+
+        <item name="android:layout_width">@dimen/eyeBox_width</item>
+        <item name="android:layout_height">@dimen/eyeBox_height</item>
+        <item name="android:background">@color/mainColor</item>
+    </style>
+
+    <!--mid Box-->
+
+    <style name="MidBox_style" >
+
+        <item name="android:layout_width">@dimen/MidBox_width</item>
+        <item name="android:layout_height">@dimen/midBox_height</item>
+        <item name="android:background">@color/mainColor</item>
+    </style>
+
+    <!--arm box-->
+
+    <style name="armBox_style" >
+
+        <item name="android:layout_width">@dimen/armBox_width</item>
+        <item name="android:layout_height">@dimen/armBox_height</item>
+        <item name="android:background">@color/mainColor</item>
+    </style>
+
+    <!--Leg Box-->
+
+    <style name="legBox_style" >
+
+        <item name="android:layout_width">@dimen/legBox_width</item>
+        <item name="android:layout_height">@dimen/legBox_height</item>
+        <item name="android:background">@color/mainColor</item>
+    </style>
+
+    <!--foot Box-->
+
+    <style name="footBox_style" >
+
+        <item name="android:layout_width">@dimen/footBox_width</item>
+        <item name="android:layout_height">@dimen/footBox_height</item>
+        <item name="android:background">@color/mainColor</item>
+    </style>
+
+
+</resources>

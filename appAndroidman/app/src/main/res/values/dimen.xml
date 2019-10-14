@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <dimen name="title">30sp</dimen>
+    <dimen name="boottxtsize">20sp</dimen>
+    <dimen name="imgheight">400dp</dimen>
+    <dimen name="imgwidth">300dp</dimen>
+
+    <!--android man head box!-->
+
+    <dimen name="headbox_height">40dp</dimen>
+    <dimen name="headbox_width">110dp</dimen>
+
+    <dimen name="eyeBox_height">10dp</dimen>
+    <dimen name="eyeBox_width">22dp</dimen>
+
+    <dimen name="armBox_height">182dp</dimen>
+    <dimen name="armBox_width">42dp</dimen>
+
+    <dimen name="midBox_height">223dp</dimen>
+    <dimen name="MidBox_width">219dp</dimen>
+
+    <dimen name="legBox_height">89dp</dimen>
+    <dimen name="legBox_width">42dp</dimen>
+
+    <dimen name="footBox_height">27dp</dimen>
+    <dimen name="footBox_width">60dp</dimen>
+
+    <dimen name="mid_margin">20dp</dimen>
+    <dimen name="small_margin">10dp</dimen>
+    <dimen name="large_margin">30dp</dimen>
+
+</resources>

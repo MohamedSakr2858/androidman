@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+ <TextView
+     android:id="@+id/titleTxtView"
+     style="@style/Title_style"
+     android:text="@string/androidManTitle"
+     android:layout_centerHorizontal="true"
+     android:layout_marginTop="20dp"
+     />
+
+ <LinearLayout
+     android:id="@+id/headLinearLayout"
+     android:layout_below="@+id/titleTxtView"
+     android:layout_marginTop="20dp"
+     style="@style/commonStyle"
+     android:layout_centerHorizontal="true"
+     android:orientation="vertical">
+
+  <View
+      android:id="@+id/hair"
+      style="@style/headbox_style"/>
+
+  <LinearLayout
+      android:layout_marginTop="5dp"
+      android:layout_marginBottom="5dp"
+      style="@style/commonStyle"
+      android:orientation="horizontal">
+
+   <View
+       android:layout_marginLeft="20dp"
+       android:id="@+id/leftEye"
+       style="@style/eyeBox_style"/>
+
+   <View
+       android:layout_marginLeft="20dp"
+       android:id="@+id/rightEye"
+       style="@style/eyeBox_style"/>
+
+
+  </LinearLayout>
+  <View
+      android:id="@+id/mouth"
+      style="@style/headbox_style"/>
+
+ </LinearLayout>
+
+ <LinearLayout
+     android:layout_below="@+id/headLinearLayout"
+     android:layout_margin="@dimen/mid_margin"
+     android:id="@+id/midAreaLayout"
+     android:orientation="horizontal"
+     style="@style/commonStyle">
+
+  <View
+      android:layout_width="0dp"
+      android:layout_margin="@dimen/small_margin"
+      android:layout_weight="1"
+   style="@style/armBox_style"/>
+
+  <View
+      android:layout_width="0dp"
+      android:layout_margin="@dimen/small_margin"
+      android:layout_weight="4"
+      style="@style/MidBox_style"/>
+
+  <View
+      android:layout_width="0dp"
+      android:layout_margin="@dimen/small_margin"
+      android:layout_weight="1"
+      style="@style/armBox_style"/>
+
+
+ </LinearLayout>
+
+ <LinearLayout
+     style="@style/commonStyle"
+     android:id="@+id/footerLayout"
+     android:layout_below="@+id/midAreaLayout"
+     android:orientation="horizontal"
+     android:layout_centerHorizontal="true"
+     >
+
+  <RelativeLayout
+      style="@style/commonStyle">
+
+   <View
+       android:id="@+id/lftLeg"
+       style="@style/legBox_style"
+       android:layout_centerHorizontal="true"
+       />
+
+   <View
+       android:id="@+id/lftfoot"
+       style="@style/footBox_style"
+       android:layout_centerHorizontal="true"
+       android:layout_below="@+id/lftLeg"
+       android:layout_margin="@dimen/small_margin"
+       />
+
+
+
+  </RelativeLayout>
+
+  <RelativeLayout
+      style="@style/commonStyle">
+
+   <View
+       android:id="@+id/ritLeg"
+       style="@style/legBox_style"
+       android:layout_centerHorizontal="true"
+       />
+
+   <View
+       android:id="@+id/ritfoot"
+       style="@style/footBox_style"
+       android:layout_centerHorizontal="true"
+       android:layout_below="@+id/ritLeg"
+       android:layout_margin="@dimen/small_margin"
+       />
+
+
+
+  </RelativeLayout>
+
+
+ </LinearLayout>
+
+
+
+
+
+
+</RelativeLayout>
